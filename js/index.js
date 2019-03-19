@@ -64,7 +64,7 @@ for (var i = 0; i < lastFourLiArr.length; i++) {
                 lastFourNavDivArr[that.index].style.display = 'none';
                 clearInterval(timerul2);
             }
-        },100)
+        },30)
         
     }
 }
@@ -75,7 +75,7 @@ for (var i = 0; i < lastFourNavDivArr.length; i++) {
         clearInterval(timerul2);
         this.style.display = 'block';
         // li6Arr[index].style.backgroundColor = '#ccc';
-        li6Arr[this.index].style.backgroundColor = 'white'
+        // li6Arr[this.index].style.backgroundColor = 'white'
     }
 }
 // 当鼠标移出下拉div隐藏div
@@ -83,7 +83,7 @@ for (var i = 0; i < lastFourNavDivArr.length; i++) {
     lastFourNavDivArr[i].index = i;
     lastFourNavDivArr[i].onmouseleave = function(){
         this.style.display = 'none';
-        li6Arr[this.index].style.backgroundColor = '#F9F9F9';
+        // li6Arr[this.index].style.backgroundColor = '#F9F9F9';
     }
 }
 //搜索栏前面的导航部分，鼠标放上出现下拉列表的实现
